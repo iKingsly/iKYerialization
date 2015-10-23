@@ -1,0 +1,470 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E495923B1BDA7536008A0689 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E495923A1BDA7536008A0689 /* main.m */; };
+		E495923E1BDA7536008A0689 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E495923D1BDA7536008A0689 /* AppDelegate.m */; };
+		E49592411BDA7536008A0689 /* iKYerialization.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E495923F1BDA7536008A0689 /* iKYerialization.xcdatamodeld */; };
+		E49592441BDA7536008A0689 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E49592431BDA7536008A0689 /* ViewController.m */; };
+		E49592471BDA7536008A0689 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E49592451BDA7536008A0689 /* Main.storyboard */; };
+		E49592491BDA7536008A0689 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E49592481BDA7536008A0689 /* Images.xcassets */; };
+		E495924C1BDA7536008A0689 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = E495924A1BDA7536008A0689 /* LaunchScreen.xib */; };
+		E49592581BDA7536008A0689 /* iKYerializationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E49592571BDA7536008A0689 /* iKYerializationTests.m */; };
+		E49592661BDA754D008A0689 /* iKYSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = E49592631BDA754D008A0689 /* iKYSerialization.m */; };
+		E49592671BDA754D008A0689 /* StudentModel.m in Sources */ = {isa = PBXBuildFile; fileRef = E49592651BDA754D008A0689 /* StudentModel.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E49592521BDA7536008A0689 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E495922D1BDA7536008A0689 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E49592341BDA7536008A0689;
+			remoteInfo = iKYerialization;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E49592351BDA7536008A0689 /* iKYerialization.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iKYerialization.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E49592391BDA7536008A0689 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E495923A1BDA7536008A0689 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E495923C1BDA7536008A0689 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E495923D1BDA7536008A0689 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E49592401BDA7536008A0689 /* iKYerialization.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = iKYerialization.xcdatamodel; sourceTree = "<group>"; };
+		E49592421BDA7536008A0689 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		E49592431BDA7536008A0689 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		E49592461BDA7536008A0689 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E49592481BDA7536008A0689 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		E495924B1BDA7536008A0689 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		E49592511BDA7536008A0689 /* iKYerializationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iKYerializationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E49592561BDA7536008A0689 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E49592571BDA7536008A0689 /* iKYerializationTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iKYerializationTests.m; sourceTree = "<group>"; };
+		E49592621BDA754D008A0689 /* iKYSerialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iKYSerialization.h; sourceTree = "<group>"; };
+		E49592631BDA754D008A0689 /* iKYSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iKYSerialization.m; sourceTree = "<group>"; };
+		E49592641BDA754D008A0689 /* StudentModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StudentModel.h; sourceTree = "<group>"; };
+		E49592651BDA754D008A0689 /* StudentModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StudentModel.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E49592321BDA7536008A0689 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E495924E1BDA7536008A0689 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E495922C1BDA7536008A0689 = {
+			isa = PBXGroup;
+			children = (
+				E49592371BDA7536008A0689 /* iKYerialization */,
+				E49592541BDA7536008A0689 /* iKYerializationTests */,
+				E49592361BDA7536008A0689 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E49592361BDA7536008A0689 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E49592351BDA7536008A0689 /* iKYerialization.app */,
+				E49592511BDA7536008A0689 /* iKYerializationTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E49592371BDA7536008A0689 /* iKYerialization */ = {
+			isa = PBXGroup;
+			children = (
+				E49592611BDA754D008A0689 /* iKYSerialization */,
+				E495923C1BDA7536008A0689 /* AppDelegate.h */,
+				E495923D1BDA7536008A0689 /* AppDelegate.m */,
+				E49592421BDA7536008A0689 /* ViewController.h */,
+				E49592431BDA7536008A0689 /* ViewController.m */,
+				E49592451BDA7536008A0689 /* Main.storyboard */,
+				E49592481BDA7536008A0689 /* Images.xcassets */,
+				E495924A1BDA7536008A0689 /* LaunchScreen.xib */,
+				E495923F1BDA7536008A0689 /* iKYerialization.xcdatamodeld */,
+				E49592381BDA7536008A0689 /* Supporting Files */,
+			);
+			path = iKYerialization;
+			sourceTree = "<group>";
+		};
+		E49592381BDA7536008A0689 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E49592391BDA7536008A0689 /* Info.plist */,
+				E495923A1BDA7536008A0689 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E49592541BDA7536008A0689 /* iKYerializationTests */ = {
+			isa = PBXGroup;
+			children = (
+				E49592571BDA7536008A0689 /* iKYerializationTests.m */,
+				E49592551BDA7536008A0689 /* Supporting Files */,
+			);
+			path = iKYerializationTests;
+			sourceTree = "<group>";
+		};
+		E49592551BDA7536008A0689 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E49592561BDA7536008A0689 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E49592611BDA754D008A0689 /* iKYSerialization */ = {
+			isa = PBXGroup;
+			children = (
+				E49592621BDA754D008A0689 /* iKYSerialization.h */,
+				E49592631BDA754D008A0689 /* iKYSerialization.m */,
+				E49592641BDA754D008A0689 /* StudentModel.h */,
+				E49592651BDA754D008A0689 /* StudentModel.m */,
+			);
+			path = iKYSerialization;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E49592341BDA7536008A0689 /* iKYerialization */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E495925B1BDA7536008A0689 /* Build configuration list for PBXNativeTarget "iKYerialization" */;
+			buildPhases = (
+				E49592311BDA7536008A0689 /* Sources */,
+				E49592321BDA7536008A0689 /* Frameworks */,
+				E49592331BDA7536008A0689 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iKYerialization;
+			productName = iKYerialization;
+			productReference = E49592351BDA7536008A0689 /* iKYerialization.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E49592501BDA7536008A0689 /* iKYerializationTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E495925E1BDA7536008A0689 /* Build configuration list for PBXNativeTarget "iKYerializationTests" */;
+			buildPhases = (
+				E495924D1BDA7536008A0689 /* Sources */,
+				E495924E1BDA7536008A0689 /* Frameworks */,
+				E495924F1BDA7536008A0689 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E49592531BDA7536008A0689 /* PBXTargetDependency */,
+			);
+			name = iKYerializationTests;
+			productName = iKYerializationTests;
+			productReference = E49592511BDA7536008A0689 /* iKYerializationTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E495922D1BDA7536008A0689 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = iKingsly;
+				TargetAttributes = {
+					E49592341BDA7536008A0689 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					E49592501BDA7536008A0689 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = E49592341BDA7536008A0689;
+					};
+				};
+			};
+			buildConfigurationList = E49592301BDA7536008A0689 /* Build configuration list for PBXProject "iKYerialization" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E495922C1BDA7536008A0689;
+			productRefGroup = E49592361BDA7536008A0689 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E49592341BDA7536008A0689 /* iKYerialization */,
+				E49592501BDA7536008A0689 /* iKYerializationTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E49592331BDA7536008A0689 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E49592471BDA7536008A0689 /* Main.storyboard in Resources */,
+				E495924C1BDA7536008A0689 /* LaunchScreen.xib in Resources */,
+				E49592491BDA7536008A0689 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E495924F1BDA7536008A0689 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E49592311BDA7536008A0689 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E49592411BDA7536008A0689 /* iKYerialization.xcdatamodeld in Sources */,
+				E49592671BDA754D008A0689 /* StudentModel.m in Sources */,
+				E49592661BDA754D008A0689 /* iKYSerialization.m in Sources */,
+				E495923E1BDA7536008A0689 /* AppDelegate.m in Sources */,
+				E49592441BDA7536008A0689 /* ViewController.m in Sources */,
+				E495923B1BDA7536008A0689 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E495924D1BDA7536008A0689 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E49592581BDA7536008A0689 /* iKYerializationTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E49592531BDA7536008A0689 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E49592341BDA7536008A0689 /* iKYerialization */;
+			targetProxy = E49592521BDA7536008A0689 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E49592451BDA7536008A0689 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E49592461BDA7536008A0689 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E495924A1BDA7536008A0689 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E495924B1BDA7536008A0689 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E49592591BDA7536008A0689 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E495925A1BDA7536008A0689 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E495925C1BDA7536008A0689 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = iKYerialization/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		E495925D1BDA7536008A0689 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = iKYerialization/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		E495925F1BDA7536008A0689 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = iKYerializationTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iKYerialization.app/iKYerialization";
+			};
+			name = Debug;
+		};
+		E49592601BDA7536008A0689 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = iKYerializationTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iKYerialization.app/iKYerialization";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E49592301BDA7536008A0689 /* Build configuration list for PBXProject "iKYerialization" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E49592591BDA7536008A0689 /* Debug */,
+				E495925A1BDA7536008A0689 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E495925B1BDA7536008A0689 /* Build configuration list for PBXNativeTarget "iKYerialization" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E495925C1BDA7536008A0689 /* Debug */,
+				E495925D1BDA7536008A0689 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		E495925E1BDA7536008A0689 /* Build configuration list for PBXNativeTarget "iKYerializationTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E495925F1BDA7536008A0689 /* Debug */,
+				E49592601BDA7536008A0689 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		E495923F1BDA7536008A0689 /* iKYerialization.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				E49592401BDA7536008A0689 /* iKYerialization.xcdatamodel */,
+			);
+			currentVersion = E49592401BDA7536008A0689 /* iKYerialization.xcdatamodel */;
+			path = iKYerialization.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = E495922D1BDA7536008A0689 /* Project object */;
+}
