@@ -17,4 +17,5 @@
 /** classNumber */
 @property (nonatomic,copy) NSString *classNumber;
 
+@property (nonatomic, assign)  int age;
 @end

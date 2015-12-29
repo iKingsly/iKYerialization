@@ -21,6 +21,7 @@
     StudentModel *student = [[StudentModel alloc] init];
     student.name = @"ikingsly";
     student.sex  = @"man";
+    student.age = 20;
     [NSKeyedArchiver archiveRootObject:student toFile:file];
     
     StudentModel *Kingsly = [[StudentModel alloc] init];

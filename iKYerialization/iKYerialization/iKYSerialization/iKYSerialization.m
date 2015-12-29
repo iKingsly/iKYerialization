@@ -29,7 +29,7 @@
         
         [properNames addObject:key];
     }
-    
+    free(ivarList);
     return [properNames copy];
 }
 
@@ -39,10 +39,7 @@
     NSArray *properNames = [[self class] propertyOfSelf];
     
     for (NSString *propertyName in properNames) {
-        // 创建指向get方法
-        SEL getSel = NSSelectorFromString(propertyName);
-        // 对每一个属性实现归档
-        [enCoder encodeObject:[self performSelector:getSel] forKey:propertyName];
+        [enCoder encodeObject:[self valueForKey:propertyName] forKey:propertyName];
     }
 }
 
@@ -52,13 +49,8 @@
     NSArray *properNames = [[self class] propertyOfSelf];
     
     for (NSString *propertyName in properNames) {
-        // 创建指向属性的set方法
-        // 1.获取属性名的第一个字符，变为大写字母
-        NSString *firstCharater = [propertyName substringToIndex:1].uppercaseString;
-        // 2.替换掉属性名的第一个字符为大写字符，并拼接出set方法的方法名
-        NSString *setPropertyName = [NSString stringWithFormat:@"set%@%@:",firstCharater,[propertyName substringFromIndex:1]];
-        SEL setSel = NSSelectorFromString(setPropertyName);
-        [self performSelector:setSel withObject:[aDecoder decodeObjectForKey:propertyName]];
+        
+        [self setValue:[aDecoder decodeObjectForKey:propertyName] forKey:propertyName];
     }
     return  self;
 }
@@ -68,10 +60,7 @@
     // 取得所有成员变量名
     NSArray *properNames = [[self class] propertyOfSelf];
     for (NSString *propertyName in properNames) {
-        // 创建指向get方法
-        SEL getSel = NSSelectorFromString(propertyName);
-        
-        NSString *propertyNameString = [NSString stringWithFormat:@"%@ - %@\n",propertyName,[self performSelector:getSel]];
+        NSString *propertyNameString = [NSString stringWithFormat:@"%@ - %@\n",propertyName,[self valueForKey:propertyName]];
         [descriptionString appendString:propertyNameString];
     }
     
