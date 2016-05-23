@@ -6,9 +6,9 @@
 //  Copyright (c) 2015年 Kingsly. All rights reserved.
 //
 
-#import "iKYSerialization.h"
-
-@interface StudentModel : iKYSerialization
+#import <Foundation/Foundation.h>
+#import "iKYSerializationDefine.h"
+@interface StudentModel : NSObject
 /** name */
 @property (nonatomic,copy) NSString *name;
 /** sex */

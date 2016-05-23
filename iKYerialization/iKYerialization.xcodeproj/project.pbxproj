@@ -30,6 +30,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0DD28BA91CF344A7008A433B /* iKYSerializationDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iKYSerializationDefine.h; sourceTree = "<group>"; };
 		E49592351BDA7536008A0689 /* iKYerialization.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iKYerialization.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E49592391BDA7536008A0689 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E495923A1BDA7536008A0689 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -136,6 +137,7 @@
 				E49592631BDA754D008A0689 /* iKYSerialization.m */,
 				E49592641BDA754D008A0689 /* StudentModel.h */,
 				E49592651BDA754D008A0689 /* StudentModel.m */,
+				0DD28BA91CF344A7008A433B /* iKYSerializationDefine.h */,
 			);
 			path = iKYSerialization;
 			sourceTree = "<group>";
@@ -442,6 +444,7 @@
 				E495925D1BDA7536008A0689 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E495925E1BDA7536008A0689 /* Build configuration list for PBXNativeTarget "iKYerializationTests" */ = {
 			isa = XCConfigurationList;
@@ -450,6 +453,7 @@
 				E49592601BDA7536008A0689 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
